@@ -147,3 +147,51 @@ AI-Industrial-Maintenance-Copilot/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
+
+## Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Random Forest
+- Joblib
+- Matplotlib
+- Streamlit
+
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Nishanth123455/AI-Industrial-Maintenance-Copilot.git
+cd AI-Industrial-Maintenance-Copilot
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Streamlit application
+
+```bash
+streamlit run app/app.py
+```
+
+The application will open in your browser.
+
+## Limitations
+
+- RUL predictions depend on the quality and representativeness of the sensor inputs.
+- The model is trained on the NASA C-MAPSS FD004 dataset and may not generalize directly to other machinery or operating environments.
+- Predictions should support, not replace, engineering inspection and maintenance decisions.
+
+## Future Improvements
+
+- Evaluate additional machine-learning models and advanced feature-engineering techniques.
+- Improve model generalization across different operating conditions.
+- Add richer monitoring and visualization capabilities.
+- Integrate real-time sensor data for continuous prediction.
